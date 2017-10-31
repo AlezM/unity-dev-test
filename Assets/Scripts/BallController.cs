@@ -100,7 +100,7 @@ public class BallController : MonoBehaviour {
 
 	public void Focused (bool focus) {
 		inFocus = focus;
-		if (focus)
+		if (!focus)
 		{
 			ballSpeed = 0;
 		}
